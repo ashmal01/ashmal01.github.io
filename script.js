@@ -18,21 +18,7 @@ function login() {
     };
     localStorage.setItem('contactForm', JSON.stringify(contactForm));
   }
-  function openMenu() {
-    var menu = document.querySelector('.menu');
-    var menuItems = document.querySelector('.menu-items');
-    var openButton = document.querySelector('.open-menu');
-
-    if (menu.classList.contains('open')) {
-      menu.classList.remove('open');
-      menuItems.style.display = 'none';
-      openButton.innerHTML = 'Open Menu';
-    } else {
-      menu.classList.add('open');
-      menuItems.style.display = 'block';
-      openButton.innerHTML = 'Close Menu';
-    }
-  }
+ 
   function initMap(){
     const place ={ lat:40.712}
     //center
