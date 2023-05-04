@@ -1,0 +1,85 @@
+header{
+    padding: 20px;
+    display: flex;
+    background: linear-gradient(90deg, rgb(20, 148, 148) 25% , rgb(153, 39, 138) 100%);
+}
+ul li{
+    
+    font-size: 20px;
+
+}
+main{
+    padding: 20px;
+    background:  rgb(239, 245, 242) ;
+}
+.container{
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    border: 4px solid rgb(14, 106, 134);
+    
+}
+.container1{
+    border: 5px solid rgb(243, 243, 234);
+}
+.container2{
+    border: 5px solid  rgb(243, 243, 234);
+}
+.container3{
+    border: 5px solid  rgb(243, 243, 234);
+}
+.container4{
+    border: 5px solid  rgb(243, 243, 234);
+}
+.container5{
+    border: 5px solid  rgb(243, 243, 234);
+}
+.container6{
+    border: 5px solid  rgb(243, 243, 234);
+}
+.container7{
+    border: 5px solid  rgb(243, 243, 234);
+}
+.container8{
+    border: 5px solid rgb(243, 243, 234);
+}
+table{
+    width: 70%;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(90deg, rgb(153, 39, 138) 30% ,rgb(20, 148, 148) 100% );
+    
+}
+p a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+table  {
+    border: 1px solid black;
+    width: 70%;
+    margin: 20px auto;
+}
+th td{
+    padding: 10px;
+    border: 3px solid black;
+    border-collapse: collapse;
+    /* padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 40px; */
+    border-style: dashed;
+}
+tr:nth-child(even){
+    background-color: rgb(40, 201, 201);
+}
+
+/* #map{
+    margin: 0 auto;
+    height: 150px;
+    width: 50%;
+    margin-top: 50px;
+    float: right;
+    display: flex;
+} */
